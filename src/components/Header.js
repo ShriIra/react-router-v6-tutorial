@@ -14,7 +14,6 @@ export default function Header() {
           title="Shri Ira Tech | Home"
         />
       </Link>
-
       <nav>
         <NavLink to="/" className={getClass}>
           Home
@@ -24,6 +23,9 @@ export default function Header() {
         </NavLink>
         <NavLink to="/categories" className={getClass}>
           Categories
+        </NavLink>
+        <NavLink to="/register" className={getClass}>
+          Register
         </NavLink>
       </nav>
     </header>
